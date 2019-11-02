@@ -1,4 +1,4 @@
-Body{
+body{
     display: grid;
     grid-template-areas: 'header'
                           'main'
@@ -7,17 +7,52 @@ Body{
                           'footer';
                           
     grid-template-columns: 100% ;
+    margin: 0;
 }
 
+h4, h5, h6 {
+    margin-top: 0;
+}
 header{
     grid-area: header;
-    background-color: green;
+    background-color: #35c86f; /* verde */
 }
 
 main{
     grid-area: main;
     background-color: gray;
+}
+
+#contact {
+    grid-area: contact;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #e3e3e3;
+}
+
+#contact .text__contact {
 
 }
 
+#coment {
+    grid-area: coment;
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+    background-color: #ffffff;
+}
+#coment .coment__item__01 {
+    text-align: center;
+}
+#coment .coment__item__01 .name__person {
+    
+}
+#coment .coment__item__02 {
+    align-self: center;
+}
+footer {
+    grid-area: footer;
+    background-color: #e3e3e3;
+}
 
