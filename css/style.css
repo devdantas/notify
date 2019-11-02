@@ -1,10 +1,11 @@
 body{
     display: grid;
-    grid-template-areas: 'header'
-                          'main'
-                          'contact'
-                          'coment'
-                          'footer';
+    grid-template-areas:'header'
+                         'main'
+                         'contact'
+                         'coment'
+                         'footer';
+    
                           
     grid-template-columns: 100% ;
     margin: 0;
@@ -13,14 +14,80 @@ body{
 h4, h5, h6 {
     margin-top: 0;
 }
+
+/* =============HEADER=============== */
+
+
 header{
     grid-area: header;
-    background-color: #35c86f; /* verde */
+    background-size: green;
+    display: flex;
+    justify-content: space-between;
+  
+    
 }
 
+#bane{
+    background-image: url(../imagem/banner.png);
+}
+
+/* ===============MAIN================ */
 main{
     grid-area: main;
     background-color: gray;
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    width: 900px;
+}
+
+.circulo{
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    background-color: rgba(75, 209, 142, 0.667);
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 2;
+    bottom: 0;
+    display: flex;    
+}
+
+.circulo1{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: rgba(75, 209, 142, 0.667);
+    position: absolute;
+    margin: auto;
+    left: 700px;
+    right: 0;
+    top: 2;
+    bottom: 0;
+    display: flex;    
+}
+
+.circulo2{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: rgba(75, 209, 142, 0.667);
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 700px;
+    top: 2;
+    bottom: 0;
+    display: flex;    
+}
+
+
+#linha_verde{
+    background-color: green;
+    width: 100%;
+    height: 10px;
 }
 
 #contact {
