@@ -1,0 +1,23 @@
+Body{
+    display: grid;
+    grid-template-areas: 'header'
+                          'main'
+                          'contact'
+                          'coment'
+                          'footer';
+                          
+    grid-template-columns: 100% ;
+}
+
+header{
+    grid-area: header;
+    background-color: green;
+}
+
+main{
+    grid-area: main;
+    background-color: gray;
+
+}
+
+
