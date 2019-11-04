@@ -25,7 +25,7 @@ p {
 .line__green {
     height: 2vh;
     grid-area: greenline;
-    background-color: #35c86f;
+    background-color: #2fce72;
 }
 
 /* =============HEADER=============== */
@@ -55,7 +55,7 @@ header .header__item__01 h1 {
     font-family: 'Pacifico', cursive;
 }
 header .header__item__01 h1 span{
-    color: #35c86f;
+    color: #2fce72;
 }
 header .header__item__02 {
     display: flex;
@@ -87,9 +87,8 @@ main{
 }
 
 .content__main .circulo{
-    width: 15%;
     border-radius: 100%;
-    background-color: rgba(75, 209, 142, 0.667);
+    background-color: #2fce72;
     display: flex;    
     align-self: center;
     justify-content: center;
@@ -122,10 +121,10 @@ main{
     width: 15%;
     font-size: 16px;
     font-weight: bold;
-    border: 1px solid #35c86f;
+    border: 1px solid #2fce72;
     border-bottom-right-radius: 5px;
     border-top-right-radius: 5px;
-    background-color: #35c86f;
+    background-color: #2fce72;
     color: #ffffff;
     margin: 0;
     padding: 5px;
@@ -167,7 +166,7 @@ main{
     align-self: center;
 }
 #coment .coment__item__02 img:hover {
-    color: #35c86f;
+    color: #2fce72;
     opacity: 0.5;
     cursor: pointer;
 }
@@ -203,7 +202,7 @@ footer ul {
     width: 20px;
 }
 .icon__item:hover{
-    background-color: #35c86f;
+    background-color: #2fce72;
     cursor: pointer;
 }
 .icon__theme__01 {
