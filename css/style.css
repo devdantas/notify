@@ -92,7 +92,7 @@ main{
     display: flex;    
     align-self: center;
     justify-content: center;
-    padding: 50px;
+    padding: 30px;
 }
 
 .content__main .text__main {
